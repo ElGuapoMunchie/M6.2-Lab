@@ -12,9 +12,10 @@ body {
 }
 
 article {
-  width: 210mm;
-  height: 297mm;
-  margin: 20px auto;
+  padding-top:10em;
+  width: 800px;
+  height: 1200px;
+  margin: 25px auto;
   position: relative;
 }
 
@@ -33,9 +34,46 @@ h1 {
   font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
-  padding: 44px 0;
+  padding: 4s4px 0;
+  padding-top: 40px;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url("../img/logo.png");
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.0.5); /* Add shadow to the logo? */
 }
 
 /* Your CSS below here */
+.body-content {
+  display: flex;
+  margin: 20px;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+  background:
+    url("../img/top-image.png") top no-repeat,
+    url("../img/bottom-image.png") bottom no-repeat,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.5) 100%),
+    white;
+}
+
+column {
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  gap: 30px;
+}
+
+.buttons-section {
+  margin: 20px;
+}
